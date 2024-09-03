@@ -159,15 +159,15 @@ def clear_file():
     else:
         result_label.config(text="Файл Steam.json не найден.")
 
-def delete_file():
-    desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
-    file_path = os.path.join(desktop_path, "Steam.json")
+#def delete_file():
+ #   desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
+  #  file_path = os.path.join(desktop_path, "Steam.json")
     
-    if os.path.exists(file_path):
-        os.remove(file_path)
-        result_label.config(text="Файл Steam.json удален.")
-    else:
-        result_label.config(text="Файл Steam.json не найден.")
+   # if os.path.exists(file_path):
+    #    os.remove(file_path)
+     #   result_label.config(text="Файл Steam.json удален.")
+    #else:
+     #   result_label.config(text="Файл Steam.json не найден.")
 
 # Создание окна приложения
 root = tk.Tk()
