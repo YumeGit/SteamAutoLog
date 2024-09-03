@@ -211,11 +211,11 @@ copy_password_button = tk.Button(root, text="Копировать последн
 copy_password_button.pack(pady=5)
 
 # Добавление кнопок для очистки и удаления файла
-#clear_file_button = tk.Button(root, text="Очистить файл", command=clear_file)
-#clear_file_button.pack(pady=5)
+clear_file_button = tk.Button(root, text="Очистить файл", command=clear_file)
+clear_file_button.pack(pady=5)
 
-#delete_file_button = tk.Button(root, text="Удалить файл", command=delete_file)
-#delete_file_button.pack(pady=5)
+delete_file_button = tk.Button(root, text="Удалить файл", command=delete_file)
+delete_file_button.pack(pady=5)
 
 # Результат
 result_label = tk.Label(root, text="")
